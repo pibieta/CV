@@ -1,0 +1,206 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{Juan Pablo}{Ibieta Jimenez} %\title{Physics}                               % optional, remove / comment the line if not wanted
+\address{Rua do Matão, Travessa R, 187}{Edifício Ala Central -  331}{CEP 05508-090 -São Paulo-SP}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{(+55)11 948400420}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{pibieta@if.usp.br}                               % optional, remove / comment the line if not wanted
+%\homepage{www.myname.webs.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Summary}
+
+\begin{itemize} 
+\item Mathematical Physics Ph. D. student at the University of Sao Paulo, 
+\item Passionate about mathematics, science, philosophy and music with strong interpersonal communication skills;
+\item Fluency in English, Spanish and Portuguese and Good understanding in French.
+\end{itemize} 
+
+\section{Academical Experience}
+
+\vspace{3pt}
+
+\begin{itemize}
+
+\item{\cventry{August 2012 -- Present}{Universidade de S\~{a}o Paulo, Math. Physics Department}{Junior Researcher / Teaching Assistant}{S\~{a}o Paulo}{Brazil}{\vspace{1pt} 
+\begin{itemize} 
+\item Actively collaborated with the Topological Quantum Field Theory lead by Prof. Dr. Paulo Teotônio Sobrinho.
+\item Taught various Physics and Mathematics courses as teaching assistant to engineering and science students at the undergraduate and graduate levels. 
+\end{itemize} }}
+
+\vspace{1pt}
+
+
+\item{\cventry{February 2005 -- August 2010}{Universidad Mayor de San Andrés, Physics Department}{Junior Researcher / Teaching Assistant}{La Paz}{Bolivia}{\vspace{1pt} 
+\begin{itemize} 
+\item "Cum Laude" graduation for a small research project on Loop Quantum Gravity.
+\item Actively collaborated with the Complex Systems Group.
+\item Taught Physics and Mathematics to engineering and science students at the undergraduate and graduate levels. 
+\end{itemize} }}
+
+
+\vspace{1pt}
+
+\end{itemize}
+
+\section{Selected papers}
+
+\vspace{3pt}
+
+\begin{itemize}
+\item \textbf{Deformed quantum double realization of the toric code and beyond}. Padmanabhan, P., Ibieta-Jimenez, J. P., Ferreira, M. J. B., and Teotonio-Sobrinho, P. (2016). Annals of Physics, 372, 238-259. https://arxiv.org/abs/1408.2501
+\vspace{1pt}
+\item \textbf{A Recipe for Constructing Frustration-Free Hamiltonians with Gauge and Matter Fields in One and Two Dimensions}; Ferreira, M. J. B., Ibieta-Jimenez, J. P., Padmanabhan P.  and  Teôtonio-Sobrinho P.; Journal of Physics A: Mathematical and Theoretical 48.48 (2015): 485206, https://arxiv.org/abs/1503.07601
+\end{itemize}
+
+\section{Education}
+
+\vspace{3pt}
+
+\begin{itemize}
+
+\item{\cventry{May 2015 -- Present}{Graduate}{University of Sao Paulo (USP)}{São Paulo, Brazil}{\textit{Ph. D. in Physics}}{Mathematical Physics Department, Physics Institute}}  % arguments 3 to 6 can be left empty
+
+\vspace{1pt}
+
+\item{\cventry{August 2012 -- April 2015}{Graduate}{University of Sao Paulo (USP)}{São Paulo, Brazil}{\textit{M.Sc. in Physics}}{Mathematical Physics Department, Physics Institute}}
+
+\vspace{1pt}
+
+
+\item{\cventry{February 2004 -- July 2010}{Undergraduate}{Universidad Mayor de San Andrés (UMSA)}{La Paz, Bolivia}{\textit{Bachelor in Physics}}{Physics Department}}  % arguments 3 to 6 can be left empty
+
+
+\end{itemize}
+
+\section{Technical and Personal skills}
+
+\vspace{4pt}
+
+\begin{itemize}
+
+\item \textbf{Computer / Informatics:} 
+\begin{itemize}
+\item Proficiency with TeX and LaTeX text processors, as well as with programming languages, including C, C++, Python, Mathematica and Matlab;
+\item Proficiency in vector graphic design for illustrating academic texts. 
+\end{itemize}
+
+\item \textbf{Personal / Communication Skills:} 
+
+\begin{itemize}
+\item Proven skills in innovative problem solving, theoretical research and abstract thinking;
+\vspace{1pt}
+\item Ability to integrate and lead groups in different contexts and tasks; 
+\vspace{1pt}
+\item Professional communication skills including fluency in English, Spanish and Portuguese;
+
+\end{itemize}
+
+\end{itemize}
+
+\section{Interests and extra-curricular activity}
+
+\vspace{3pt}
+
+\begin{itemize}
+
+\item{\textbf{Music} 
+\begin{itemize} 
+\item Music passionate and collector.
+\item Amateur electronic music producer.
+\end{itemize}}
+
+\vspace{1pt}
+\item{\textbf{Sports}
+\begin{itemize} 
+\item Currently practicing Running and Calisthenics.
+\item Practiced and played Volleyball for the High-school.
+\item Practiced and played Tennis for almost 10 years.
+\end{itemize}}
+
+\item{\textbf{Gastronomics}
+\begin{itemize} 
+\item Very passionate about cooking and experiencing new food.
+\item Hot pepper appreciator. 
+\end{itemize}}
+
+
+
+%\vspace{1pt}
+
+%\item{\textbf{Sports}
+%\begin{itemize} 
+%\item Practiced and played Volleyball for the High-school and University team when studying.
+%\end{itemize}}
+
+\end{itemize}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+\end{document}
+
+
+%% end of file `template.tex'.
+\grid
