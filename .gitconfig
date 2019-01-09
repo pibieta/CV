@@ -1,0 +1,6 @@
+[user]
+	name = Pablo Ibieta
+	email = lil.titus@gmail.com
+[core]
+	autocrlf = input
+	editor = vim
