@@ -1,0 +1,78 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+%Version for spanish users, by dgarhdez
+
+\documentclass[11pt,a4paper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+%\usepackage[spanish,es-lcroman]{babel}
+
+
+% moderncv themes
+\moderncvstyle{classic}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green}                              % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{J. Pablo}{Ibieta-Jimenez}
+\title{Cover Letter}                               % optional, remove / comment the line if not wanted
+\address{Physics Institute \\ Univerisity of São Paulo \\ Rua do Matão, 1371}{CEP 05508-090, São Paulo}{Brazil}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+55~(11)~948~410~565}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{pibieta@if.usp.br}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+\photo[64pt][0.4pt]{my-pic}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Members of the hiring committee}{Insight Fellows Programs}
+\date{\today}
+\opening{To the members of the hiring committee,}
+\closing{I thank you for considering my application and hope to hear from you soon.\\ Regards,}
+\enclosure[Enclosure]{CV}     % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+The purpose of this letter is to express my interest in applying for the \textit{Insight Data Science Fellows Program} - Silicon Valley, which is advertised in your institutional website. I am a PhD candidate at the Department of Mathematical Physics - University of São Paulo USP, in São Paulo, Brazil. I currently work with Quantum Physics and Topological Phases of Matter and during my research years I have dealt with data from several sources which eventually started my curiosity, now passion, about Data Science. 
+
+I believe that Data is starting to revolutionize the world as we know it, in particular Machine Learning techniques appear to have the potential to solve many problems that have big impact both in academia and society. My outgrown interest for Data Science and the way it rapidly grows made me decide to do the transition into a career in industry, where I think my analytic skills and abilities will be found of great value.
+
+My decision of applying to this program has two main reasons: First, the very intention of the program is to help scientist make the transition into industry. Second, I am aware of my lack of real world related working experience. By the way the program is outlined, I am sure that it will certainly help me fill all the gaps needed to perform outstandingly on a industry related job. 
+
+
+\vspace{0.5cm}
+
+
+\makeletterclosing
+
+\end{document}
+
+
+%% end of file `template.tex'.
