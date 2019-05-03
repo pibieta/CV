@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.16)  9 JAN 2019 13:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.16)  3 MAY 2019 19:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1064,104 +1064,94 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--55
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 57.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 77.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 80.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 77.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 80.
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 77--77
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 80--80
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 77--77
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 80--80
 []$ 
  []
 
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 83.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 86.
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 83--83
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 86--86
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 83--83
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 86--86
 []$ 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 90--90
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 93--93
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 90--90
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 93--93
 []$ 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 100--100
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 103--103
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 100--100
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 103--103
 []$ 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 114--114
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 117--117
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 114--114
-[]$ 
- []
-
-
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 118--118
-[][] 
- []
-
-
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 118--118
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 117--117
 []$ 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 122--122
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 121--121
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 122--122
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 121--121
 []$ 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 127--127
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 125--125
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 127--127
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 125--125
 []$ 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 183--183
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 130--130
 [][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 130--130
+[]$ 
  []
 
 [2]
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 185--185
-[][] 
- []
-
-
 Overfull \hbox (10.88788pt too wide) in paragraph at lines 187--187
 [][] 
  []
@@ -1182,40 +1172,50 @@ Overfull \hbox (10.88788pt too wide) in paragraph at lines 193--193
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 196--196
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 195--195
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 199--199
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 197--197
 [][] 
  []
 
 
-Overfull \hbox (10.88788pt too wide) in paragraph at lines 202--202
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 200--200
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 203--203
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 206--206
 [][] 
  []
 
 No file CVPablo.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 266.
 [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 266.
  (./CVPablo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 266.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 266.
 Package rerunfilecheck Info: File `CVPablo.out' has not changed.
-(rerunfilecheck)             Checksum: 041EDE828FCA6FBAA25A5762C138553E;786.
+(rerunfilecheck)             Checksum: 9F9CC9ED3887C0CA19DAE2222331AFDA;738.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20780 strings out of 493013
- 342435 string characters out of 6135682
+ 20788 strings out of 493013
+ 342529 string characters out of 6135682
  418289 words of memory out of 5000000
  24076 multiletter control sequences out of 15000+600000
- 58047 words of font info for 60 fonts, out of 8000000 for 9000
+ 58486 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,12n,45p,10359b,404s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist
@@ -1224,7 +1224,7 @@ fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/t
 exmf/fonts/type1/public/lm/lmsso10.pfb>
-Output written on CVPablo.pdf (3 pages, 129509 bytes).
+Output written on CVPablo.pdf (3 pages, 130063 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  67 compressed objects within 1 object stream
