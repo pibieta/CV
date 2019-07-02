@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.16)  3 MAY 2019 19:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.10.6)  2 JUL 2019 18:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1213,7 +1213,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  20788 strings out of 493013
  342529 string characters out of 6135682
- 418289 words of memory out of 5000000
+ 418290 words of memory out of 5000000
  24076 multiletter control sequences out of 15000+600000
  58486 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1224,7 +1224,7 @@ fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/t
 exmf/fonts/type1/public/lm/lmsso10.pfb>
-Output written on CVPablo.pdf (3 pages, 130063 bytes).
+Output written on CVPablo.pdf (3 pages, 130064 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  67 compressed objects within 1 object stream
