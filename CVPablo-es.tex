@@ -1,0 +1,282 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+%\usepackage{tabto}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\newcommand{\tab}[1]{\hspace{.2\textwidth}\rlap{#1}}
+
+% personal data
+\name{Juan Pablo}{Ibieta Jimenez} %\title{Physics}                               % optional, remove / comment the line if not wanted
+\address{Alameda Vicente Pinzon, 51 - Vila Olímpia}{13º andar - CJ 1301}{CEP 04547-130 -São Paulo-SP}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{(+55)11 948410565}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{ibieta.pablo@gmail.com, verx.juan.jimenez@br.experian.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.myname.webs.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Resumo}
+
+\begin{itemize}
+\item Cientista de Dados - Serasa Experian DataLab (Verx Tecnologia e Inovação); 
+\item Doutor em Física Matemática pela Universidade de São Paulo; 
+\item Trabalha com Data Science desde 2017. Trabalha com Física Quântica usando ferramentas matemáticas e computacionais avançadas desde 2012;
+\item Ensina Matemática e Física em diferentes níveis desde 2003;
+\item Apaixonado por programação, matemática, ciência, filosofia e música, com alta habilidade de comunicação interpessoal;
+\item Fluente em inglês, espanhol e português.
+\end{itemize} 
+
+
+\section{Experiência Laboral}
+\vspace{3pt}
+\begin{itemize}
+
+\item{\cventry{Agosto 2019 -- Presente}{Serasa Experian DataLab - Verx Tecnología e Inovação}{Cientista de Dados}{São Paulo}{Brasil}{\vspace{1pt}
+Análise e visualização de dados. Aplicações de Machine Learning em diferentes cenários de interesse para o DataLab. Atualmente trabalha com modelos de propensão de crédito e dados alternativos. 
+}}
+\vspace{1pt}
+\item{\cventry{Julho 2008 -- Dezembro 2013}{Smarthinking.com / Latinhire.com}{Online Tutor}{La Paz}{Bolivia}{\vspace{1pt} 
+\begin{itemize} 
+\item Trabalhou como tutor online para  o serviço Smarthinking.com atrav\'{e}s de Latinhire.com.
+\item As aulas foram ministradas principalmente em inglês.
+\end{itemize} }}
+
+
+
+\end{itemize}
+\section{Experiência Acadêmica}
+
+\vspace{3pt}
+
+\begin{itemize}
+\item{\cventry{Agosto 2012 -- Setembro 2019}{Universidade de S\~{a}o Paulo, IFUSP}{Pesquisador / Monitor}{S\~{a}o Paulo}{Brasil}{\vspace{1pt} 
+\begin{itemize} 
+%\item Currently a Ph.D. student at the Mathematical Physics Department.
+\item Doutorado em física concluído em 2095 envolvendo pesquisa sobre \textbf{Topological Phases of Matter}.
+\item Colaborador do grupo de Teoria de Campos Topológica liderado pelo Prof. Dr. Paulo Teotônio Sobrinho.
+\item Monitor de diversos cursos de física e matemática para estudantes de engenharia e ciência dos níveis de graduação e pós-graduação. 
+\end{itemize} }}
+
+\vspace{1pt}
+\item{\cventry{Janeiro 2018}{Universidad Mayor de San Andrés, Carrera de Física}{Profesor Visitante}{La Paz}{Bolívia}{\vspace{1pt}
+Atuou como professor visitante no programa de verão de duas semanas do curso introdutório em física matemática chamado \textbf{Teoria dos grupos e aplicações em física}. 
+}}
+
+
+
+\vspace{1pt}
+\item{\cventry{Fevereiro 2005 -- Agosto 2010}{Universidad Mayor de San Andrés,  Departamento de Física}{Pesquisador Júnior / Monitor}{La Paz}{Bolívia}{\vspace{1pt} 
+\begin{itemize} 
+\item Graduado "Cum Laude" com um projeto de pesquisa sobre Loop Quantum Gravity.
+\item Colaborador ativo no grupo de sistemas complexos.
+\item Monitor de diversos cursos de física e matemática para estudantes de engenharia e ciência dos níveis de graduação. 
+\end{itemize} }}
+
+
+\vspace{1pt}
+
+\end{itemize}
+
+\section{Educação}
+
+\vspace{3pt}
+
+\begin{itemize}
+
+\item{\cventry{Maio 2015 -- Setembro 2019}{Pós-graduação}{Universidade de São Paulo (USP)}{São Paulo, Brasil}{\textit{Ph. D. em Física}}{Departamento de Física Matemática, Instituto de Física}}  % arguments 3 to 6 can be left empty
+
+\vspace{1pt}
+
+\item{\cventry{Agosto 2012 -- Abril 2015}{Pós-graduação}{Universidade de São Paulo (USP)}{São Paulo, Brasil}{\textit{Mestrado em Física}}{Departamento de Física Matemática, Instituto de Física}}
+
+\vspace{1pt}
+\item{\cventry{Julho 2011 -- Janeiro 2012}{Pós-graduação}{Universidad Católica Boliviana - San Pablo (UCB)}{La Paz, Bolivia}{\textit{Diplomado em Ensino na Educação Superior}}{Departmento de Educação}}
+
+\vspace{1pt}
+
+\item{\cventry{Fevereiro 2004 -- Julho 2010}{Graduação}{Universidad Mayor de San Andrés (UMSA)}{La Paz, Bolívia}{\textit{Bacharelado/Licenciatura em Física}}{Departamento de Física}}  % arguments 3 to 6 can be left empty
+
+
+\end{itemize}
+
+
+%\section{Artigos Publicados}
+%
+%\vspace{3pt}
+%
+%\begin{itemize}
+%\item \textbf{Deformed quantum double realization of the toric code and beyond}. Padmanabhan, P., Ibieta-Jimenez, J. P., Ferreira, M. J. B., and Teotonio-Sobrinho, P. (2016). Annals of Physics, 372, 238-259. https://arxiv.org/abs/1408.2501
+%\vspace{1pt}
+%\item \textbf{A Recipe for Constructing Frustration-Free Hamiltonians with Gauge and Matter Fields in One and Two Dimensions}; Ferreira, M. J. B., Ibieta-Jimenez, J. P., Padmanabhan P.  and  Teôtonio-Sobrinho P.; Journal of Physics A: Mathematical and Theoretical 48.48 (2015): 485206, https://arxiv.org/abs/1503.07601
+%
+%\item \textbf{Topological Order from a Cohomological and Higher Gauge Theory perspective}; de Almeida, R. C., Ibieta-Jimenez, J. P., Espiro, J. L. and Teotonio-Sobrinho, P. (2017). arXiv preprint arXiv:1711.04186.
+%\end{itemize}
+
+
+%\section{Technical and Personal skills}
+\section{Habilidades Técnicas e de Comunicação}
+
+\vspace{4pt}
+
+\begin{itemize}
+
+\item \textbf{Computacional / Informática:} 
+\begin{itemize}
+\item Linguagens de programação: Python, C, C++;
+\item Bases de Dados: SQL and NoSQL;
+\item Machine Learning: Tensorflow, sklearn, keras, XGBoost; 
+%\item Tensor Networks: ITensor;
+\item Proficiência em processadores de texto TeX e LaTeX;
+\item Proficiência em design gráfico vetorial para ilustrações de textos acadêmicos. 
+\end{itemize}
+
+\item \textbf{Comunicação:} 
+
+\begin{itemize}
+\item Habilidade em resolução de problemas inovadores, pesquisa teórica e pensamento abstrato;
+\vspace{1pt}
+\item Habilidade de integração e liderança de grupos em contextos e tarefas variados; 
+\vspace{1pt}
+\item Habilidade de comunicação profissional incluindo fluência em línguas diversas.
+
+\end{itemize}
+
+\end{itemize}
+
+\section{Idiomas}
+\vspace{4pt}
+\begin{itemize}
+\item{\textbf{Espanhol:}} Nativo;
+\item{\textbf{Inglês:}} Fluente;
+\item{\textbf{Português:}} Fluente;
+%\item{\textbf{Francês}:} Intermediário;
+%\item{\textbf{Latim}:} Básico.
+\end{itemize}
+
+\section{Participação em Eventos}
+\vspace{4pt}
+\begin{itemize}
+\item{\cventry{Dezembro 2018}{Instituto de Física Teórica (IFT)- UNESP}{2018 CODATA-RDA School of Research Data Science}{São Paulo}{Brasil}{\vspace{1pt} 
+}}
+\item{\cventry{Outubro 2018}{Instituto de Física Teórica (IFT)- UNESP}{Introduction to quantum computation and simulability}{São Paulo}{Brasil}{\vspace{1pt} 
+}}
+\item{\cventry{Agosto 2018}{Instituto de Física Teórica (IFT)- UNESP}{From Quantum Information to Many-Body Physics and Beyond}{São Paulo}{Brasil}{\vspace{1pt} 
+}}
+\item{\cventry{Maio 2018}{Universidad de los Andes}{School on Mathematical Physics: Topological order and beyond}{Bogotá}{Colômbia}{\vspace{1pt} 
+}}
+\item{\cventry{Fevereiro - Março 2018}{Instituto de Física Teórica (IFT)- UNESP}{School on Nonlinear Time Series Analysis and Complex Networks}{São Paulo}{Brasil}{\vspace{1pt} 
+}}
+\item{\cventry{Setembro 2017}{Instituto de Física Teórica (IFT)- UNESP}{Minicourse on Machine Learning for Many-Body Physics}{São Paulo}{Brasil}{\vspace{1pt} 
+}}
+\item{\cventry{Abril 2017}{Instituto de Física Teórica (IFT)- UNESP}{
+School on AdS/CMT Correspondence}{São Paulo}{Brasil}{\vspace{1pt} 
+}}
+\item{\cventry{Novembro 2014}{International Institute of Physics (IIP) - UFRN}{
+Group Theory and Knots}{Natal}{Brasil}{\vspace{1pt} 
+}}
+\item{\cventry{Julho 2010}{Universidad de Buenos Aires (UBA)}{
+Quantum Gravity in the Southern Cone V}{Buenos Aires}{Argentina}{\vspace{1pt} 
+}}
+\end{itemize}
+%\section{Interests and extra-curricular activity}
+
+%\vspace{3pt}
+
+%\begin{itemize}
+
+%\item{\textbf{Music} 
+%\begin{itemize} 
+%\item Music passionate and collector.
+%\item Amateur electronic music producer.
+%\end{itemize}}
+
+%\vspace{1pt}
+%\item{\textbf{Sports}
+%\begin{itemize} 
+%\item Currently practicing Running and Calisthenics.
+%\item Practiced and played Volleyball in High-school.
+%\item Practiced and played Tennis for almost 10 years.
+%\end{itemize}}
+
+%\item{\textbf{Gastronomics}
+%\begin{itemize} 
+%\item Very passionate about cooking and experiencing new food.
+%\item Hot pepper appreciator. 
+%\end{itemize}}
+
+
+
+%\vspace{1pt}
+
+%\item{\textbf{Sports}
+%\begin{itemize} 
+%\item Practiced and played Volleyball for the High-school and University team when studying.
+%\end{itemize}}
+
+%\end{itemize}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+\end{document}
+
+
+%% end of file `template.tex'.
+\grid
